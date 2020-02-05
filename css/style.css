@@ -2,7 +2,11 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+<<<<<<< HEAD
     font-family:s;
+=======
+    font-family:Helvetica;
+>>>>>>> 302256f698458e7da02b013f615b42d83356141d
 }
 *{
     box-sizing: border-box;
@@ -243,7 +247,10 @@ p{
 .button_center{
     display: inline-block;
     padding: 15px 35px;
+<<<<<<< HEAD
     color: white;
+=======
+>>>>>>> 302256f698458e7da02b013f615b42d83356141d
     margin: 0px 0px 25px 0px;
 }
 .sec_six{
@@ -272,6 +279,7 @@ p{
 }
 .six_btn{
     display: inline-block;
+<<<<<<< HEAD
     padding: 15px 45px;
     color: white;
     margin: 0px 0px 25px 0px;
@@ -279,6 +287,12 @@ p{
 .img_six{
     height: 853px;
     margin-bottom:0px;
+=======
+    padding: 15px 30px;
+    margin: 0px 0px 25px 0px;
+}
+.img_six{
+>>>>>>> 302256f698458e7da02b013f615b42d83356141d
     text-align: center;
 }
 .sec_seven{
