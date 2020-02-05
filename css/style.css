@@ -2,11 +2,13 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
+    font-family:s;
 }
 *{
     box-sizing: border-box;
 }
 .sec_first{
+    width: 100%;
     padding: 10px 0px;
 }
 .div_sec_first{
@@ -30,6 +32,10 @@ html,body{
 }
 ul{
     padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .menu{
     font-size: 14px;
@@ -72,6 +78,7 @@ h1{
     font-size: 60px;
     margin: 0px 0px 25px 0px;
     color: white;
+    font-weight: 100;
 }
 p{
     font-size: 16px;
@@ -104,4 +111,351 @@ p{
 }
 a{
     text-decoration: none;
+}
+.sec_third{
+    width: 100%;
+    padding: 100px 0px;
+}
+.sec_third_div{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.third_div_image{
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+.image_third{
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+}
+.img_div{
+    width: 100%;
+    padding: 0px 15px;
+}
+.third_div_text{
+    width: 30%;
+    padding: 0px 15px;
+    margin: 0px 80px 0px 100px;
+    float: right;
+}
+.txt{
+    width: 100%;
+    font-weight: 100;
+    margin: 80px 0px; 
+}
+h3{
+    font-weight: 100;
+    font-size: 30px;
+    margin: 0px 0px 25px 0px;
+}
+.p_white{
+    color: white;
+}
+p{
+    font-size: 14px;
+    color:black;
+}
+.btn{
+    width: 150px;
+    height: 50px;
+    margin: 0px 0px 25px 0px;
+    padding: 15px 25px;
+    border: 1px white solid;
+    background-color: #745cf9;
+}
+.btn-read{
+    display: inline-block;
+    color: white;
+}
+.sec_four{
+    width: 100%;
+    padding: 100px 0px;
+}
+.sec_four_div{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.four_div_text{
+    width: 30%;
+    padding: 0px 15px;
+    margin: 0px 0px 0px 100px;
+    float: left;
+}
+.four_div_image{
+    width: 50%;
+    text-align: center;
+    margin: 0px 0px 0px 100px;
+    float: right;
+}
+.four_third{
+    width: 100%;
+    margin: 0px;
+    display: inline-block;
+}
+.btn-four{
+    width: 200px;
+    height: 50px;
+    margin: 0px 0px 25px 0px;
+    padding: 15px 25px;
+    border: 1px white solid;
+    background-color: #745cf9;
+}
+.btn-read-four{
+    display: inline-block;
+    color: white;
+}
+.sec_five{
+    width: 100%;
+    height: 400px;
+    background-image: url(../image/asset%201.jpeg);
+    background-position: center;
+    background-size: cover;
+    padding: 90px 0px;
+}
+.sec_five_center{
+    width: 70%;
+    padding: 0px 15px;
+    margin: auto;
+}
+.h1_five{
+    font-size: 60px;
+    text-align: center;
+    margin: 0px 0px 25px 0px;
+    font-weight: inherit;
+}
+.p_five{
+   font-size: 14px; 
+    color: white;
+    margin: 0px 0px 15px 0px;
+}
+.btn_five{
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    margin: auto;
+    background-color: #745cf9;
+    border: 1px white solid;
+}
+.button_center{
+    display: inline-block;
+    padding: 15px 35px;
+    color: white;
+    margin: 0px 0px 25px 0px;
+}
+.sec_six{
+    width: 100%;  
+    padding: 100px 0px 0px 0px;
+}
+.sec_six_center{
+    width: 60%;
+    margin: auto;
+}
+.h3_six{
+     font-size: 30px;   
+     text-align: center;
+     margin: 0px 0px 25px 0px; 
+}
+.p_six{
+    font-size: 14px;   
+     margin: 0px 0px 25px 0px; 
+}
+.btn-six{
+    width: 200px;
+    height: 50px;
+    margin: 0px auto 25px auto;
+    background-color:#745cf9;
+    border: 1px white solid;
+}
+.six_btn{
+    display: inline-block;
+    padding: 15px 45px;
+    color: white;
+    margin: 0px 0px 25px 0px;
+}
+.img_six{
+    height: 853px;
+    margin-bottom:0px;
+    text-align: center;
+}
+.sec_seven{
+    width: 100%;
+    background-color: black;
+    padding: 100px 0px 0px 0px;
+}
+.sec_seven_center{
+    width: 90%;
+    margin: auto;
+    padding: 0px 15px;
+}
+.text_seven{
+    width: 100%;
+    color: white;
+    margin: auto;
+    padding: 0px 15px;
+    
+}
+.h3_txt_seven{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+.p_txt_seven{
+    width: 30%;
+    text-align: center;
+    font-size: 14px;
+    color: white;
+    margin: 0px auto 30px auto;
+    background-color: gray;
+}
+.sec_seven_img{
+    width: 100%;
+    margin: auto;
+    overflow: auto;
+}
+.img1{
+    width:25%;
+    height: 230px;
+    float: left;
+}
+.sec_eight{
+    width: 100%;
+    height: 500px;
+    background-image: url(../image/asset%200.jpeg);
+    background-size: cover;
+    background-position:center;
+}
+.eight_text{
+    width: 90%;
+    margin: auto;
+    padding: 90px 0px;
+    color: white;
+}
+.h3_eight{
+    margin: 0px 0px 25px 0px;
+    font-size: 30px;
+    text-align: center; 
+}
+.p_eight{
+    width: 60%;
+    margin: auto;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 15px;
+    color: white;
+}
+.p_eight1{
+    color:white;
+}
+.img_eight{
+    text-align: center;
+}
+.img_radius{
+    width :150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0px 0px 15px 0px;
+}
+.img_rad_txt{
+    text-align: center;
+}
+.sec_nine{
+    width: 100%;
+    padding: 100px 0px;
+}
+.sec_nine_text{
+    width: 90%;
+    margin: auto;
+    font-size: 30px;
+    padding: 0px 15px;
+}
+.h3_font{
+    text-align: center;
+    margin: 0px 0px 50px 0px;
+}
+.nine_img{
+    width: 90%;
+    height: 70px;
+    margin: auto;
+    overflow: auto;
+}
+.nine_img1{
+    width: 25%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+.img11{
+    width: 60px;
+}
+.sec_ten{
+    width: 100%;
+}
+.sect_ten{
+    width: 70%;
+    margin: auto;
+    padding: 100px 0px;
+    overflow: auto;
+}
+.h3_ten_txt{
+    width: 70%;
+    font-size: 30px;
+    margin: auto;
+    padding: 0px 10px;
+    text-align: center;
+    float: left;
+}
+.sec_ten_btn{
+    width: 250px;
+    height: 50px;
+    padding: 15px 25px;
+    background-color: #745cf9;
+    text-align: center;
+    float: right;
+}
+.btn_txt{
+    color: white;
+    display: inline-block;
+}
+.sec_eleven{
+    width: 100%;
+    background-color: black;
+    padding: 70px 0px;
+}
+.sec_eleven_text{
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px ;
+    overflow: auto;
+}
+.eleven_text{
+    width: 50%;
+    float: left;
+    padding: 0px 10px;
+    margin: auto;
+}
+.h4_eleven{
+    padding: 20px;
+    font-size: 16px;
+    margin: 0px;
+    color: white;
+}
+.eleven_icon{
+    width: 40%;
+    height: 30px;
+    float: right;
+    position: relative;
+    padding: 0px 10px;
+    margin: auto;
+}
+.icons{
+    width: 30%;
+    margin: auto 80px auto auto;
+}
+.facebook{
+    display: inline-block;
+    padding: 5px;
 }
