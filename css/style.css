@@ -2,11 +2,7 @@ html,body{
     width: 100%;
     height: 100%;
     margin: 0;
-<<<<<<< HEAD
-    font-family:s;
-=======
-    font-family:Helvetica;
->>>>>>> 302256f698458e7da02b013f615b42d83356141d
+    font-family:sans-serif;
 }
 *{
     box-sizing: border-box;
@@ -16,7 +12,7 @@ html,body{
     padding: 10px 0px;
 }
 .div_sec_first{
-    width: 90%;
+    width: 80%;
     height: 70px;
     margin: auto;
     overflow: auto;
@@ -26,13 +22,21 @@ html,body{
     padding: 20px 0px;
     float: left;
 }
+.logo_color{
+    color: gray;
+    font-family: 'Raleway', sans-serif;
+}
 .logo{
     padding: 0px 32px 0px 15px;
     font-size: 24px;   
 }
 .div_menu{
     width: 50%;
-    float: right; 
+    float: right;
+    text-align: center;
+    margin: 0px;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
 }
 ul{
     padding: 0px;
@@ -42,7 +46,7 @@ a{
     color: black;
 }
 .menu{
-    font-size: 14px;
+    font-size: 13px;
     padding: 10px 0px;
     margin: 0px 20px 0px 0px;
     display: inline-block;
@@ -55,6 +59,7 @@ a{
      display: inline-block;
     padding: 25px 0px;
     float: right;
+    margin: 0px 50px 0px 50px;
 }
 .sec_second{
     width: 100%;
@@ -68,7 +73,7 @@ a{
 }
 .second_center_div{
     width: 60%;
-    height: 300px;
+    height: 250px;
     margin: auto;
     top: 0px;
     bottom: 0px;
@@ -77,15 +82,18 @@ a{
     position: absolute;
     padding: 0px 15px;
     text-align: center;
+    line-height: 1.7;
 }
-h1{
+.title{
     font-size: 60px;
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 24px 0px;
     color: white;
-    font-weight: 100;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;  
+    font-weight: 400;
+    line-height: 64px;
 }
 p{
-    font-size: 16px;
+    font-size: 14px;
     margin: 0px 0px 25px 0px;
     color: white;
 }
@@ -121,7 +129,7 @@ a{
     padding: 100px 0px;
 }
 .sec_third_div{
-    width: 90%;
+    width: 80%;
     margin: auto;
     overflow: auto;
 }
@@ -136,30 +144,39 @@ a{
     display: inline-block;
 }
 .img_div{
-    width: 100%;
+    width: 80%;
     padding: 0px 15px;
+    margin: 50px 0px;
 }
 .third_div_text{
-    width: 30%;
+    width: 35%;
     padding: 0px 15px;
-    margin: 0px 80px 0px 100px;
     float: right;
 }
 .txt{
     width: 100%;
+    margin: 50px 0px;
     font-weight: 100;
-    margin: 80px 0px; 
 }
-h3{
+.h3_txt{
     font-weight: 100;
     font-size: 30px;
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 24px 0px;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+}
+.h3_paragraph{
+    font-family:raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-size:14px;
+    font-weight: 400;
+    color: gray;
+    line-height: 1.7;
 }
 .p_white{
     color: white;
 }
 p{
     font-size: 14px;
+    line-height: 1.5;
     color:black;
 }
 .btn{
@@ -177,6 +194,7 @@ p{
 .sec_four{
     width: 100%;
     padding: 100px 0px;
+    background-color: #f5f5f5;
 }
 .sec_four_div{
     width: 90%;
@@ -219,6 +237,7 @@ p{
     background-position: center;
     background-size: cover;
     padding: 90px 0px;
+    background-attachment: fixed;
 }
 .sec_five_center{
     width: 70%;
@@ -229,12 +248,16 @@ p{
     font-size: 60px;
     text-align: center;
     margin: 0px 0px 25px 0px;
-    font-weight: inherit;
+    font-weight: 400;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    color: white;
 }
 .p_five{
    font-size: 14px; 
     color: white;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 24px 0px;
+    text-align: center;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
 }
 .btn_five{
     width: 180px;
@@ -246,15 +269,12 @@ p{
 }
 .button_center{
     display: inline-block;
-    padding: 15px 35px;
-<<<<<<< HEAD
-    color: white;
-=======
->>>>>>> 302256f698458e7da02b013f615b42d83356141d
-    margin: 0px 0px 25px 0px;
+    padding: 15px;
+    color: white; 
 }
 .sec_six{
-    width: 100%;  
+    width: 100%; 
+    background-color: #f5f5f5;
     padding: 100px 0px 0px 0px;
 }
 .sec_six_center{
@@ -265,10 +285,15 @@ p{
      font-size: 30px;   
      text-align: center;
      margin: 0px 0px 25px 0px; 
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .p_six{
-    font-size: 14px;   
-     margin: 0px 0px 25px 0px; 
+     font-size: 14px;  
+    text-align: center;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    color: gray;
+    margin: 0px 0px 25px 0px; 
 }
 .btn-six{
     width: 200px;
@@ -279,7 +304,6 @@ p{
 }
 .six_btn{
     display: inline-block;
-<<<<<<< HEAD
     padding: 15px 45px;
     color: white;
     margin: 0px 0px 25px 0px;
@@ -287,17 +311,11 @@ p{
 .img_six{
     height: 853px;
     margin-bottom:0px;
-=======
-    padding: 15px 30px;
-    margin: 0px 0px 25px 0px;
-}
-.img_six{
->>>>>>> 302256f698458e7da02b013f615b42d83356141d
     text-align: center;
 }
 .sec_seven{
     width: 100%;
-    background-color: black;
+    background-color: #0e1015;
     padding: 100px 0px 0px 0px;
 }
 .sec_seven_center{
@@ -316,23 +334,31 @@ p{
     text-align: center;
     color: white;
     font-size: 30px;
+    margin: 0px 0px 30px 0px;
+    font-family:raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .p_txt_seven{
     width: 30%;
     text-align: center;
     font-size: 14px;
     color: white;
-    margin: 0px auto 30px auto;
-    background-color: gray;
+    margin: 0px auto 40px auto;
+    font-family:raleway, "helvetica neue", Helvetica, Arial, sans-serif;
 }
 .sec_seven_img{
     width: 100%;
-    margin: auto;
+    margin: auto auto 0px auto;
     overflow: auto;
+}
+.img{
+    width: 100%;
+    margin: auto;
 }
 .img1{
     width:25%;
     height: 230px;
+    margin: 0px;
     float: left;
 }
 .sec_eight{
@@ -341,6 +367,7 @@ p{
     background-image: url(../image/asset%200.jpeg);
     background-size: cover;
     background-position:center;
+    background-attachment: fixed;
 }
 .eight_text{
     width: 90%;
@@ -352,6 +379,8 @@ p{
     margin: 0px 0px 25px 0px;
     font-size: 30px;
     text-align: center; 
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .p_eight{
     width: 60%;
@@ -360,6 +389,8 @@ p{
     text-align: center;
     padding: 0px 15px;
     color: white;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .p_eight1{
     color:white;
@@ -375,6 +406,8 @@ p{
 }
 .img_rad_txt{
     text-align: center;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 .sec_nine{
     width: 100%;
@@ -389,6 +422,9 @@ p{
 .h3_font{
     text-align: center;
     margin: 0px 0px 50px 0px;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
 }
 .nine_img{
     width: 90%;
@@ -407,9 +443,10 @@ p{
 }
 .sec_ten{
     width: 100%;
+    background-color: #f5f5f5;
 }
 .sect_ten{
-    width: 70%;
+    width: 80%;
     margin: auto;
     padding: 100px 0px;
     overflow: auto;
@@ -421,6 +458,9 @@ p{
     padding: 0px 10px;
     text-align: center;
     float: left;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    color: gray;
+    font-weight: 400;
 }
 .sec_ten_btn{
     width: 250px;
@@ -453,9 +493,11 @@ p{
 }
 .h4_eleven{
     padding: 20px;
-    font-size: 16px;
-    margin: 0px;
+    font-size: 14px;
+    margin: 0px 0px 0px 50px;
     color: white;
+    font-family: raleway, "helvetica neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
 }
 .eleven_icon{
     width: 40%;
