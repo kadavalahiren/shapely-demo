@@ -37,6 +37,7 @@ html,body{
     margin: 0px;
     font-size: 14px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 ul{
     padding: 0px;
@@ -98,7 +99,7 @@ p{
     color: white;
 }
 .button{
-    width: 55%;
+    width: 415px;
     margin: auto;
     overflow: auto;
 }
@@ -108,7 +109,6 @@ p{
     float: left;
     color: white;
     padding: 18px 0px;
-    border: 1px white solid;
     margin: 0px 10px 0px 0px;
     background-color: #745cf9;
 }
@@ -124,7 +124,6 @@ p{
     float: left;
     color: white;
     padding: 18px 0px;
-    border: 1px white solid;
     background-color: #745cf9;
 }
 a{
@@ -152,10 +151,10 @@ a{
 .img_div{
     width: 80%;
     padding: 0px 15px;
-    margin: 50px 0px;
+    margin:0px;
 }
 .third_div_text{
-    width: 35%;
+    width: 60%;
     padding: 0px 15px;
     float: right;
 }
